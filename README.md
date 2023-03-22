@@ -14,7 +14,7 @@ $ npm install esg-donation
 ## Usage
 
 ```js
-const tiny = require("@bamblehorse/tiny");
+const tiny = require("esg-donation");
 or;
 import tiny from "esg-donation";
 
