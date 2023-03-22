@@ -1,4 +1,12 @@
 {
   "name": "esg-donation",
-  "version": "0.1.2"
+  "version": "1.0.1",
+  "description": "Removes all spaces from a string",
+  "license": "MIT",
+  "repository": "DManujaya/esg-donation",
+  "main": "index.js",
+  "keywords": [
+    "npm",
+    "esgdonation"
+  ]
 }
