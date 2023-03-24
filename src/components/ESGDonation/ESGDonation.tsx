@@ -3,7 +3,7 @@ import OptIn from "./OptIn";
 import Project from "./Project";
 import Location from "./Location";
 import "./ESGDonation.css";
-import "/public/fonts/index.css";
+import "./public/fonts/index.css";
 
 export default function ESGDonation() {
   const [page, setPage] = useState(1);
