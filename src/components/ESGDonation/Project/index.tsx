@@ -27,7 +27,6 @@ export default function Project(props: ProjectProps) {
           <ParkIcon />
           Terrestrial, Mozambique
         </label>
-        <br />
         <input
           type="radio"
           id="projectChoice2"
@@ -38,14 +37,11 @@ export default function Project(props: ProjectProps) {
           <NatureIcon />
           Forestry Tree, England
         </label>
-        <br />
-
         <input type="radio" id="projectChoice3" name="project" value="kenya" />
         <label htmlFor="projectChoice3">
           <ForestIcon />
           Mangrove, Kenya
         </label>
-        <br />
       </div>
       <div className="nextButton">
         <NextIcon setPage={props.setPage} />
