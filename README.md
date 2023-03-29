@@ -14,15 +14,9 @@ $ npm install esg-donation
 ## Usage
 
 ```js
-const tiny = require("esg-donation");
+const { ESGDonation } = require("esg-donation");
 or;
-import tiny from "esg-donation";
+import { ESGDonation } from "esg-donation";
 
-tiny("So much space!");
-//=> "Somuchspace!"
-
-tiny(1337);
-//=> Uncaught TypeError: Tiny wants a string!
-//    at tiny (<anonymous>:2:41)
-//    at <anonymous>:1:1
+<ESGDonation />;
 ```
